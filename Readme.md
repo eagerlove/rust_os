@@ -40,3 +40,5 @@
         - [X] fixed-size block allocation 
 - [ ] 线程，进程及多进程关键字async/await实现
 
+# Acknowledge
+[blog OS](https://os.phil-opp.com/)

@@ -38,11 +38,7 @@
         - [X] linked list allocation 在页表中开辟一块大内存以链表的形式向需要使用的程序分配内存
         - [X] bump allocation 类似于数组顺序分配内存
         - [X] fixed-size block allocation 
-- [ ] 线程，进程及多进程关键字async/await实现
+- [ ] 系统多进程实现 async/await
 
 # Acknowledge
-<<<<<<< HEAD
 [blog OS](https://os.phil-opp.com/)
-=======
-[blog OS](https://os.phil-opp.com/)
->>>>>>> d238c00 (Update Readme and fix some bugs)

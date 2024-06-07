@@ -41,4 +41,8 @@
 - [ ] 线程，进程及多进程关键字async/await实现
 
 # Acknowledge
+<<<<<<< HEAD
 [blog OS](https://os.phil-opp.com/)
+=======
+[blog OS](https://os.phil-opp.com/)
+>>>>>>> d238c00 (Update Readme and fix some bugs)

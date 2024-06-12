@@ -35,6 +35,7 @@ fn kernel_main(_boot_info: &'static BootInfo) -> ! {
     println!("Hell♂ W♀rld{}", "!");
     blog_os::init();
 
+    // asynchronous example
     let mut executor = SimpleExecutor::new();
     executor.spawn(Task::new(example_task()));
     executor.run();

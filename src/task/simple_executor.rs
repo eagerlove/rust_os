@@ -24,8 +24,8 @@ impl SimpleExecutor {
             let waker = dummy_waker();
             let mut context = Context::from_waker(&waker);
             match task.poll(&mut context) {
-                Poll::Ready(()) => {}
-                Poll::Pending => self.task_queue.push_back(task),
+                Poll::Ready(()) => {} // task done
+                Poll::Pending => self.task_queue.push_back(task), // task not ready
             }
         }
     }
